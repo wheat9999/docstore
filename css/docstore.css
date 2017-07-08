@@ -1,0 +1,54 @@
+
+
+td{border:solid #add9c0; border-width:0px 1px 1px 0px; padding:10px 0px;text-align: center}
+th{border:solid #add9c0; border-width:0px 1px 1px 0px; padding:10px 0px;text-align: center;font-size: 18px;font-weight:bold;}
+table{border:solid #add9c0; border-width:1px 0px 0px 1px;width: 80%;font-size: 14px}
+
+h3{
+	font-family:”黑体”;
+	color:green;
+	font-style:italic;
+}
+
+input[type="button"] {
+	position: relative;
+	display: inline-block;
+	background: #ecd8bd;
+	border: 1px solid #99D3F5;
+	border-radius: 4px;
+	padding: 4px 12px;
+	overflow: hidden;
+	color: #821818;
+	text-decoration: none;
+	text-indent: 0;
+	line-height: 20px;
+}
+
+
+
+a.btn{      /* 统一设置所以样式 */
+	font-family:Arial;
+	font-size:12px;
+	text-align:center;
+	margin:3px;
+}
+ a.btn:link,a.btn:visited{  /* 超链接正常状态、被访问过的样式 */
+	color:#A62020;
+	padding:4px 10px 4px 10px;
+	background-color:#ecd8bd;
+	text-decoration:none;
+
+	border-top:1px solid #EEEEEE; /* 边框实现阴影效果 */
+	border-left:1px solid #EEEEEE;
+	border-bottom:1px solid #717171;
+	border-right:1px solid #717171;
+}
+ a.btn:hover{       /* 鼠标指针经过时的超链接 */
+	color:#821818;     /* 改变文字颜色 */
+	padding:5px 8px 3px 12px;  /* 改变文字位置 */
+	background-color:#e2c4c9;  /* 改变背景色 */
+	border-top:1px solid #717171; /* 边框变换，实现“按下去”的效果 */
+	border-left:1px solid #717171;
+	border-bottom:1px solid #EEEEEE;
+	border-right:1px solid #EEEEEE;
+}

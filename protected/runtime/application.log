@@ -1,0 +1,1541 @@
+2015/07/26 03:18:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "configure/navi".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('configure/navi')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/docstore/configure/navi
+HTTP_REFERER=http://localhost/docstore/configure/index.html?view=about
+---
+2015/07/26 03:18:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "configure/navi".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('configure/navi')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/docstore/configure/navi
+HTTP_REFERER=http://localhost/docstore/configure/index.html?view=about
+---
+2015/07/27 05:54:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usercenter/index".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usercenter/inde...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/docstore/usercenter/index.html
+HTTP_REFERER=http://115.29.237.213/docstore/
+---
+2015/07/27 05:55:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usercenter/index".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usercenter/inde...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/docstore/usercenter/index.html
+HTTP_REFERER=http://115.29.237.213/docstore/configure/index.html?view=about
+---
+2015/07/27 05:55:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usercenter/index".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usercenter/inde...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/docstore/usercenter/index.html
+HTTP_REFERER=http://115.29.237.213/docstore/configure/index.html?view=about
+---
+2015/07/27 05:55:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usercenter/index".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usercenter/inde...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/docstore/usercenter/index.html
+HTTP_REFERER=http://115.29.237.213/docstore/doc/list.html
+---
+2015/07/27 07:20:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bbx".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('bbx')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('bbx')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('configure/bbx/y...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/configure/bbx/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/configure/index.html
+---
+2015/07/27 07:21:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tools".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('tools')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('tools')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('configure/tools...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/configure/tools/life/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/configure/index.html
+---
+2015/07/27 07:21:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yanfang".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('yanfang')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('yanfang')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('configure/yanfa...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/configure/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/configure/index.html
+---
+2015/07/27 10:13:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usercenter/index".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usercenter/inde...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/docstore/usercenter/index.html
+---
+2015/07/27 10:19:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usercenter/index".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usercenter/inde...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/docstore/usercenter/index.html
+HTTP_REFERER=http://115.29.237.213/docstore/configure/index.html?view=about
+---
+2015/07/27 11:47:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usercenter/index".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usercenter/inde...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/docstore/usercenter/index.html
+HTTP_REFERER=http://115.29.237.213/docstore/doc/list.html
+---
+2015/07/27 11:47:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usercenter/index".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usercenter/inde...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/docstore/usercenter/index.html
+HTTP_REFERER=http://115.29.237.213/docstore/usercenter/index.html
+---
+2015/07/27 11:47:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usercenter/index".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usercenter/inde...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/docstore/usercenter/index.html
+HTTP_REFERER=http://115.29.237.213/docstore/doc/list.html
+---
+2015/07/27 11:47:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usercenter/index".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usercenter/inde...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/docstore/usercenter/index.html
+HTTP_REFERER=http://115.29.237.213/docstore/configure/index.html?view=about
+---
+2015/07/27 11:51:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usercenter/index".' in /opt/lampp/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usercenter/inde...')
+#1 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/docstore/usercenter/index.html
+HTTP_REFERER=http://115.29.237.213/docstore/
+---
+2015/07/27 15:12:09 [error] [php] Undefined index: is_source (/opt/lampp/htdocs/docstore/protected/views/configure/property_index.php:90)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(869): ConfigureController->renderFile()
+#1 /opt/lampp/htdocs/docstore/protected/controllers/ConfigureController.php(34): ConfigureController->renderPartial()
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): ConfigureController->actionProIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): ConfigureController->runAction()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): ConfigureController->runActionWithFilters()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): ConfigureController->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/configure/proIndex
+in /opt/lampp/htdocs/docstore/protected/views/configure/property_index.php (90)
+in /opt/lampp/htdocs/docstore/protected/controllers/ConfigureController.php (34)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/07/27 15:13:00 [error] [php] Undefined index: is_source (/opt/lampp/htdocs/docstore/protected/views/configure/property_index.php:90)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(869): ConfigureController->renderFile()
+#1 /opt/lampp/htdocs/docstore/protected/controllers/ConfigureController.php(34): ConfigureController->renderPartial()
+#2 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): ConfigureController->actionProIndex()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(286): ConfigureController->runAction()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(265): ConfigureController->runActionWithFilters()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): ConfigureController->run()
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/configure/proIndex
+in /opt/lampp/htdocs/docstore/protected/views/configure/property_index.php (90)
+in /opt/lampp/htdocs/docstore/protected/controllers/ConfigureController.php (34)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/02 19:24:19 [error] [php] move_uploaded_file(files/73-20150802072419.sh): failed to open stream: 拒絕不符權限的操作 (/opt/lampp/htdocs/docstore/protected/controllers/DocController.php:126)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/uploadFile
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (126)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/03 11:29:49 [error] [php] Undefined offset: 1 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:16)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=26&inputs=&_=1438572591070
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (16)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/03 11:29:50 [error] [php] Undefined offset: 1 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:16)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=26&inputs=&_=1438572592160
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (16)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/03 11:29:52 [error] [php] Undefined offset: 1 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:16)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=26&inputs=&_=1438572594084
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (16)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/03 11:29:57 [error] [php] Undefined offset: 1 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:16)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=26&inputs=&_=1438572599329
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (16)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/03 11:29:58 [error] [php] Undefined offset: 1 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:16)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=26&inputs=&_=1438572600102
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (16)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/03 11:29:58 [error] [php] Undefined offset: 1 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:16)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=26&inputs=&_=1438572600293
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (16)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/03 11:30:08 [error] [php] Undefined offset: 1 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:16)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=26&inputs=&_=1438572610192
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (16)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/03 11:30:08 [error] [php] Undefined offset: 1 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:16)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=26&inputs=&_=1438572610377
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (16)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/03 13:18:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bbx".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('bbx')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('bbx')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('configure/bbx/y...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/configure/bbx/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/configure/index.html
+---
+2015/08/03 13:19:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tools".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('tools')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('tools')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('configure/tools...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/configure/tools/life/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/configure/index.html
+---
+2015/08/03 13:20:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yanfang".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('yanfang')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('yanfang')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('configure/yanfa...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/configure/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/configure/index.html
+---
+2015/08/03 13:31:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bbx".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('bbx')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('bbx')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc/bbx/yanfang...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc/bbx/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/doc/fileList.html
+---
+2015/08/03 13:33:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tools".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('tools')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('tools')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc/tools/life/...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc/tools/life/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/doc/fileList.html
+---
+2015/08/03 13:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yanfang".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('yanfang')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('yanfang')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc/yanfang/ind...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/doc/fileList.html
+---
+2015/08/03 13:33:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc//feed-proxy...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc//feed-proxy.php?feed=http/../feed-proxy.php
+HTTP_REFERER=http://115.29.237.213:80/docstore/doc/fileList.html
+---
+2015/08/03 13:33:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc//shopadmin/...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc//shopadmin/index.php?ctl=passport&act=login&sess_id=1%27+and%28select+1+from%28select+count%28*%29%2Cconcat%28%28select+%28select+%28select+concat%28userpass%2C0x7e%2Cusername%2C0x7e%2Cop_id%29+from+sdb_operators+order+by+username+limit+0%2C1%29+%29+from+%60information_schema%60.tables+limit+0%2C1%29%2Cfloor%28rand%280%29*2%29%29x+from+%60information_schema%60.tables+group+by+x%29a%29+and+%271%27%3D%271
+HTTP_REFERER=http://115.29.237.213:80/docstore/doc/fileList.html
+---
+2015/08/03 13:36:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bbx".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('bbx')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('bbx')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/bbx/yanfan...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/site/bbx/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/site/captcha.html
+---
+2015/08/03 13:37:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tools".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('tools')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('tools')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/tools/life...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/site/tools/life/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/site/captcha.html
+---
+2015/08/03 13:37:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yanfang".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('yanfang')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('yanfang')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/yanfang/in...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/site/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/site/captcha.html
+---
+2015/08/03 18:26:38 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/UserManager.php:27)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): ConfigureController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): ConfigureController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): ConfigureController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/configure/userIndex
+in /opt/lampp/htdocs/docstore/protected/managers/UserManager.php (27)
+in /opt/lampp/htdocs/docstore/protected/controllers/ConfigureController.php (189)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/03 18:26:40 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/UserManager.php:27)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): ConfigureController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): ConfigureController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): ConfigureController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/configure/userIndex
+in /opt/lampp/htdocs/docstore/protected/managers/UserManager.php (27)
+in /opt/lampp/htdocs/docstore/protected/controllers/ConfigureController.php (189)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/03 18:26:58 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/UserManager.php:27)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): ConfigureController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): ConfigureController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): ConfigureController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/configure/userIndex
+in /opt/lampp/htdocs/docstore/protected/managers/UserManager.php (27)
+in /opt/lampp/htdocs/docstore/protected/controllers/ConfigureController.php (189)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/03 18:26:59 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/UserManager.php:27)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): ConfigureController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): ConfigureController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): ConfigureController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/configure/userIndex
+in /opt/lampp/htdocs/docstore/protected/managers/UserManager.php (27)
+in /opt/lampp/htdocs/docstore/protected/controllers/ConfigureController.php (189)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/03 18:27:00 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/UserManager.php:27)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): ConfigureController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): ConfigureController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): ConfigureController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/configure/userIndex
+in /opt/lampp/htdocs/docstore/protected/managers/UserManager.php (27)
+in /opt/lampp/htdocs/docstore/protected/controllers/ConfigureController.php (189)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/04 22:25:13 [error] [php] Undefined offset: 24 (/opt/lampp/htdocs/docstore/protected/views/doc/list.php:119)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(869): DocController->renderFile()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(782): DocController->renderPartial()
+#2 /opt/lampp/htdocs/docstore/protected/controllers/DocController.php(18): DocController->render()
+#3 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(49): DocController->actionList()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#6 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#7 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#8 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/views/doc/list.php (119)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (18)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/04 22:27:49 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=28&inputs=72%24%26%24%23*%23%23%26%2373%24%26%24XT0002&_=1438698469624
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (49)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/04 22:27:54 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=28&inputs=72%24%26%24%23*%23%23%26%2373%24%26%24XT0002&_=1438698474849
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (49)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/04 22:27:56 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=28&inputs=72%24%26%24%23*%23%23%26%2373%24%26%24XT0002&_=1438698476226
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (49)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/04 22:28:01 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=28&inputs=72%24%26%24%23*%23%23%26%2373%24%26%24XT0001&_=1438698481835
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (49)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/04 22:28:54 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=28&inputs=73%24%26%24XT0001&_=1438698534685
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (49)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/04 22:28:55 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=28&inputs=73%24%26%24XT0001&_=1438698535437
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (49)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/04 22:28:55 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=28&inputs=73%24%26%24XT0001&_=1438698535605
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (49)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/04 22:28:55 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=28&inputs=73%24%26%24XT0001&_=1438698535789
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (49)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/04 22:30:02 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=29&inputs=74%24%26%2415%23%26%2375%24%26%242&_=1438698602759
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (49)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/04 22:30:03 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=29&inputs=74%24%26%2415%23%26%2375%24%26%242&_=1438698603502
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (49)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/04 22:30:03 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=29&inputs=74%24%26%2415%23%26%2375%24%26%242&_=1438698603654
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (49)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/04 22:30:03 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=29&inputs=74%24%26%2415%23%26%2375%24%26%242&_=1438698603806
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (49)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/04 22:30:04 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=29&inputs=74%24%26%2415%23%26%2375%24%26%242&_=1438698603998
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (49)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/04 22:30:26 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=29&inputs=74%24%26%2415%23%26%2375%24%26%242&_=1438698626411
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (49)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/04 22:30:26 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=29&inputs=74%24%26%2415%23%26%2375%24%26%242&_=1438698626651
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (49)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/04 22:30:26 [error] [php] Undefined offset: 0 (/opt/lampp/htdocs/docstore/protected/managers/RecordManager.php:49)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /opt/lampp/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#4 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#5 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#6 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/save?typeId=29&inputs=74%24%26%2415%23%26%2375%24%26%242&_=1438698626860
+in /opt/lampp/htdocs/docstore/protected/managers/RecordManager.php (49)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (53)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/05 00:20:46 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/05 00:20:47 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/09 14:29:18 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/09 14:29:18 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/10 13:25:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bbx".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('bbx')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('bbx')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc/bbx/yanfang...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc/bbx/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/doc/fileList.html
+---
+2015/08/10 13:26:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tools".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('tools')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('tools')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc/tools/life/...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc/tools/life/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/doc/fileList.html
+---
+2015/08/10 13:26:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yanfang".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('yanfang')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('yanfang')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc/yanfang/ind...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/doc/fileList.html
+---
+2015/08/10 13:26:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc//feed-proxy...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc//feed-proxy.php?feed=http/../feed-proxy.php
+HTTP_REFERER=http://www.iautostock.com:80/docstore/doc/fileList.html
+---
+2015/08/10 13:26:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc//shopadmin/...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc//shopadmin/index.php?ctl=passport&act=login&sess_id=1%27+and%28select+1+from%28select+count%28*%29%2Cconcat%28%28select+%28select+%28select+concat%28userpass%2C0x7e%2Cusername%2C0x7e%2Cop_id%29+from+sdb_operators+order+by+username+limit+0%2C1%29+%29+from+%60information_schema%60.tables+limit+0%2C1%29%2Cfloor%28rand%280%29*2%29%29x+from+%60information_schema%60.tables+group+by+x%29a%29+and+%271%27%3D%271
+HTTP_REFERER=http://www.iautostock.com:80/docstore/doc/fileList.html
+---
+2015/08/10 13:26:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bbx".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('bbx')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('bbx')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc/bbx/yanfang...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc/bbx/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/doc/fileList.html
+---
+2015/08/10 13:26:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tools".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('tools')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('tools')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc/tools/life/...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc/tools/life/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/doc/fileList.html
+---
+2015/08/10 13:26:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yanfang".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('yanfang')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('yanfang')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc/yanfang/ind...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/doc/fileList.html
+---
+2015/08/10 13:26:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc//feed-proxy...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc//feed-proxy.php?feed=http/../feed-proxy.php
+HTTP_REFERER=http://115.29.237.213:80/docstore/doc/fileList.html
+---
+2015/08/10 13:26:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc//shopadmin/...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc//shopadmin/index.php?ctl=passport&act=login&sess_id=1%27+and%28select+1+from%28select+count%28*%29%2Cconcat%28%28select+%28select+%28select+concat%28userpass%2C0x7e%2Cusername%2C0x7e%2Cop_id%29+from+sdb_operators+order+by+username+limit+0%2C1%29+%29+from+%60information_schema%60.tables+limit+0%2C1%29%2Cfloor%28rand%280%29*2%29%29x+from+%60information_schema%60.tables+group+by+x%29a%29+and+%271%27%3D%271
+HTTP_REFERER=http://115.29.237.213:80/docstore/doc/fileList.html
+---
+2015/08/10 13:26:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bbx".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('bbx')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('bbx')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/bbx/yanfan...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/site/bbx/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/site/captcha.html
+---
+2015/08/10 13:26:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tools".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('tools')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('tools')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/tools/life...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/site/tools/life/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/site/captcha.html
+---
+2015/08/10 13:26:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yanfang".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('yanfang')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('yanfang')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/yanfang/in...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/site/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://115.29.237.213:80/docstore/site/captcha.html
+---
+2015/08/10 13:26:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bbx".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('bbx')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('bbx')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/bbx/yanfan...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/site/bbx/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/site/captcha.html
+---
+2015/08/10 13:26:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tools".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('tools')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('tools')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/tools/life...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/site/tools/life/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/site/captcha.html
+---
+2015/08/10 13:26:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yanfang".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('yanfang')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('yanfang')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/yanfang/in...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/site/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/site/captcha.html
+---
+2015/08/10 13:26:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bbx".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('bbx')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('bbx')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('configure/bbx/y...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/configure/bbx/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/configure/index.html
+---
+2015/08/10 13:26:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tools".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('tools')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('tools')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('configure/tools...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/configure/tools/life/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/configure/index.html
+---
+2015/08/10 13:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yanfang".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('yanfang')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('yanfang')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('configure/yanfa...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/configure/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/configure/index.html
+---
+2015/08/12 23:00:53 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/14 19:21:39 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/14 19:21:41 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/17 13:24:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bbx".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('bbx')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('bbx')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc/bbx/yanfang...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc/bbx/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/doc/fileList.html
+---
+2015/08/17 13:24:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tools".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('tools')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('tools')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc/tools/life/...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc/tools/life/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/doc/fileList.html
+---
+2015/08/17 13:26:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yanfang".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('yanfang')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('yanfang')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc/yanfang/ind...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/doc/fileList.html
+---
+2015/08/17 13:26:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc//feed-proxy...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc//feed-proxy.php?feed=http/../feed-proxy.php
+HTTP_REFERER=http://www.iautostock.com:80/docstore/doc/fileList.html
+---
+2015/08/17 13:26:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('doc//shopadmin/...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/doc//shopadmin/index.php?ctl=passport&act=login&sess_id=1%27+and%28select+1+from%28select+count%28*%29%2Cconcat%28%28select+%28select+%28select+concat%28userpass%2C0x7e%2Cusername%2C0x7e%2Cop_id%29+from+sdb_operators+order+by+username+limit+0%2C1%29+%29+from+%60information_schema%60.tables+limit+0%2C1%29%2Cfloor%28rand%280%29*2%29%29x+from+%60information_schema%60.tables+group+by+x%29a%29+and+%271%27%3D%271
+HTTP_REFERER=http://www.iautostock.com:80/docstore/doc/fileList.html
+---
+2015/08/17 13:26:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bbx".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('bbx')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('bbx')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/bbx/yanfan...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/site/bbx/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/site/captcha.html
+---
+2015/08/17 13:26:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tools".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('tools')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('tools')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/tools/life...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/site/tools/life/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/site/captcha.html
+---
+2015/08/17 13:27:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yanfang".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('yanfang')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('yanfang')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/yanfang/in...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/site/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/site/captcha.html
+---
+2015/08/17 13:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "bbx".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('bbx')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('bbx')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('configure/bbx/y...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/configure/bbx/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/configure/index.html
+---
+2015/08/17 13:27:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tools".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('tools')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('tools')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('configure/tools...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/configure/tools/life/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/configure/index.html
+---
+2015/08/17 13:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yanfang".' in /opt/lampp/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(270): CController->missingAction('yanfang')
+#1 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('yanfang')
+#2 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('configure/yanfa...')
+#3 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/docstore/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/docstore/configure/yanfang/index.php?q=%7B%24%7Bprint%28md5%28233333%29%29%7D%7D
+HTTP_REFERER=http://www.iautostock.com:80/docstore/configure/index.html
+---
+2015/08/19 00:25:11 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/19 00:25:12 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/23 00:57:43 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/23 00:57:44 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/27 23:36:11 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/08/27 23:36:12 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/09/01 12:48:49 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/09/01 12:48:49 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/09/05 14:59:49 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/09/05 14:59:51 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/09/10 23:04:53 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/09/10 23:04:53 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/09/15 08:57:53 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/09/15 08:57:54 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/09/21 23:33:30 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/09/21 23:33:30 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/09/26 09:24:39 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/09/26 09:24:39 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/10/01 20:56:09 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/10/01 20:56:09 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/10/09 20:33:44 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/10/09 20:33:44 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/10/14 08:58:13 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/10/14 08:58:14 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/10/22 11:35:42 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/10/22 11:35:43 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/10/27 14:00:05 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
+2015/10/27 14:00:05 [error] [php] Trying to get property of non-object (/opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php:8)
+Stack trace:
+#0 /opt/lampp/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /opt/lampp/htdocs/yii/framework/web/CController.php(286): DocController->runAction()
+#2 /opt/lampp/htdocs/yii/framework/web/CController.php(265): DocController->runActionWithFilters()
+#3 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(282): DocController->run()
+#4 /opt/lampp/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /opt/lampp/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /opt/lampp/htdocs/docstore/index.php(13): CWebApplication->run()
+REQUEST_URI=/docstore/doc/list.html
+in /opt/lampp/htdocs/docstore/protected/managers/DocTypeManager.php (8)
+in /opt/lampp/htdocs/docstore/protected/controllers/DocController.php (14)
+in /opt/lampp/htdocs/docstore/index.php (13)
